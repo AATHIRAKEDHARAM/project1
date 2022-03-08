@@ -6,4 +6,4 @@ def program(request):
     return HttpResponse('hello')
 
 def index(request):
-    return render(request,'index.html')
+    return render(request,'facebook.html')
